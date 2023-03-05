@@ -6,11 +6,11 @@ import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <div className="bg-white">
-      <Navbar />
+      <Navbar/>
       <Jumbotron />
       <Card />
       <Footer />
-      <h1 className="text-xl justify-end">Testing</h1>
+     
     </div>
   );
 }
