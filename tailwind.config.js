@@ -9,11 +9,15 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        "cardw": "325px",
+        cardw: "325px",
       },
       height: {
-        "cardh": "500px",
-      }
+        cardh: "500px",
+      },
+      animation: {
+        "wiggle": 'wiggle 1s ease-in-out infinite',
+        "spin-slow": "spin 3s linear infinite",
+      },
     },
   },
   plugins: [],
