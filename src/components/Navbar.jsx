@@ -6,7 +6,7 @@ import { gsap } from "gsap";
 export function Navbar() {
   return (
     <div>
-      <nav className="flex bg-slate-700 h-24 justify-between items-center fixed top-0 w-full z-50">
+      <nav className="flex bg-gradient-to-b from-slate-700 to-blue-400 h-24 justify-between items-center fixed top-0 w-full z-50">
         <div className="text-white">
           <p className="flex text-xl pl-4">Made with React and TailwindCSS</p>
         </div>
@@ -18,7 +18,7 @@ export function Navbar() {
             <SiTailwindcss />
           </div>
         </div>
-        <div className="text-gray-500 text-xl">
+        <div className="text-gray-200 text-xl">
           <a className="pl-4 hover:text-white" href="#">
             Home
           </a>

@@ -3,7 +3,7 @@ import React from "react";
 export function Card() {
   return (
     <div className="flex justify-between mx-10">
-      <div className="hover:scale-105">
+      <div className="hover:scale-105 ">
         <div className="bg-white h-[450px] w-[325px] border rounded-t-lg ">
           <div className="h-1/2 bg-gray-400 rounded-t-lg">
             <img className="rounded-t-md" src="#" alt="" />
