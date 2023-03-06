@@ -58,7 +58,7 @@ export function Navbar() {
         </div>
       </nav>
       {isOpen && (
-        <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-slate-700 to-blue-400">
+        <div className="z-50 fixed top-24 w-full bg-gradient-to-b from-blue-400 to-slate-700">
           <div className="flex flex-col items-center py-4">
             <a
               className="py-2 px-4 text-gray-200 hover:bg-blue-500"

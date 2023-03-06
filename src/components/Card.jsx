@@ -2,9 +2,9 @@ import React from "react";
 
 export function Card() {
   return (
-    <div className="flex justify-between mx-10">
-      <div className="hover:scale-105 ">
-        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg ">
+    <div className=" flex flex-wrap justify-center">
+      <div className="hover:scale-105 mx-10 my-5 ">
+        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg">
           <div className="h-1/2 bg-gray-400 rounded-t-lg">
             <img className="rounded-t-md" src="#" alt="" />
           </div>
@@ -17,17 +17,16 @@ export function Card() {
           </div>
         </div>
         <div className="flex h-[50px] w-[325px] justify-center border-x border-b rounded-b-lg">
-        <button
-          className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          type="button"
-        >
+          <button
+            className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            type="button"
+          >
             Find Out more!
           </button>
         </div>
-        
       </div>
-      <div className="hover:scale-105">
-        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg ">
+      <div className="hover:scale-105 mx-10 my-5">
+        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg">
           <div className="h-1/2 bg-gray-400 rounded-t-lg">
             <img className="rounded-t-md" src="#" alt="" />
           </div>
@@ -40,17 +39,16 @@ export function Card() {
           </div>
         </div>
         <div className="flex h-[50px] w-[325px] justify-center border-x border-b rounded-b-lg">
-        <button
-          className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          type="button"
-        >
+          <button
+            className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            type="button"
+          >
             Find Out more!
           </button>
         </div>
-        
       </div>
-      <div className="hover:scale-105">
-        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg ">
+      <div className="hover:scale-105 mx-10 my-5">
+        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg">
           <div className="h-1/2 bg-gray-400 rounded-t-lg">
             <img className="rounded-t-md" src="#" alt="" />
           </div>
@@ -63,17 +61,16 @@ export function Card() {
           </div>
         </div>
         <div className="flex h-[50px] w-[325px] justify-center border-x border-b rounded-b-lg">
-        <button
-          className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          type="button"
-        >
+          <button
+            className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            type="button"
+          >
             Find Out more!
           </button>
         </div>
-        
       </div>
-      <div className="hover:scale-105">
-        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg ">
+      <div className="hover:scale-105 mx-10 my-5">
+        <div className="bg-white h-[450px] w-[325px] border rounded-t-lg">
           <div className="h-1/2 bg-gray-400 rounded-t-lg">
             <img className="rounded-t-md" src="#" alt="" />
           </div>
@@ -86,16 +83,14 @@ export function Card() {
           </div>
         </div>
         <div className="flex h-[50px] w-[325px] justify-center border-x border-b rounded-b-lg">
-        <button
-          className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          type="button"
-        >
+          <button
+            className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            type="button"
+          >
             Find Out more!
           </button>
         </div>
-        
       </div>
-      
     </div>
   );
 }
