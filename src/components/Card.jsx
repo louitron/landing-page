@@ -6,7 +6,7 @@ export function Card({ title, bio, imageURL }) {
       <div className="bg-white h-[450px] w-[325px] border rounded-t-lg">
         <div className=" h-1/2 bg-gray-400 rounded-t-lg">
           <img
-            className="h-full w-full object-cover rounded-t-md"
+            className=" h-full w-full object-cover rounded-t-md"
             src={imageURL}
             alt=""
           />
@@ -18,7 +18,7 @@ export function Card({ title, bio, imageURL }) {
       </div>
       <div className=" bg-white flex h-[50px] w-[325px] justify-center border-x border-b rounded-b-lg">
         <button
-          className="my-2 bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="mx-4 bg-blue-700 text-white font-bold my-2 px-4 rounded"
           type="button"
         >
           Find Out more!

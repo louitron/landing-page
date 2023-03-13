@@ -45,7 +45,9 @@ export default function Home() {
           />
         ))}
       </div>
-      <Footer />
+      <div className="bottom-0">
+        <Footer />
+      </div>
     </div>
   );
 }
